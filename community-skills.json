@@ -1,0 +1,20 @@
+{
+  "pack": "youtube-agent-community-skills",
+  "version": "1.1.0",
+  "skills": [
+    {"name":"yt-positioning","path":"skills/yt-positioning/SKILL.md","category":"strategy","summary":"Define a precise audience, promise, positioning and content pillars."},
+    {"name":"yt-idea-engine","path":"skills/yt-idea-engine/SKILL.md","category":"ideation","summary":"Generate, score and rank a production-ready video idea backlog."},
+    {"name":"yt-series-builder","path":"skills/yt-series-builder/SKILL.md","category":"strategy","summary":"Turn one viable concept into a repeatable YouTube series system."},
+    {"name":"yt-thumbnail-director","path":"skills/yt-thumbnail-director/SKILL.md","category":"packaging","summary":"Create a production-ready thumbnail brief for a designer or image model."},
+    {"name":"yt-publish-gate","path":"skills/yt-publish-gate/SKILL.md","category":"quality","summary":"Run deterministic pre-publish QA before a video goes live."},
+    {"name":"yt-community","path":"skills/yt-community/SKILL.md","category":"community","summary":"Plan Community-tab posts, polls and feedback loops."},
+    {"name":"yt-localize","path":"skills/yt-localize/SKILL.md","category":"localization","summary":"Adapt packaging and messaging to a target language and market."},
+    {"name":"yt-playlist-architect","path":"skills/yt-playlist-architect/SKILL.md","category":"distribution","summary":"Design playlists and homepage binge paths."},
+    {"name":"yt-monetization","path":"skills/yt-monetization/SKILL.md","category":"business","summary":"Map audience-fit monetization options without inventing revenue claims."},
+    {"name":"yt-sponsor-fit","path":"skills/yt-sponsor-fit/SKILL.md","category":"business","summary":"Evaluate sponsor fit and build a safe integration brief."},
+    {"name":"yt-experiment","path":"skills/yt-experiment/SKILL.md","category":"analytics","summary":"Design interpretable YouTube experiments with explicit variables and success criteria."},
+    {"name":"yt-music-release","path":"skills/yt-music-release/SKILL.md","category":"music","summary":"Build a YouTube release package for original music."}
+  ],
+  "schema_version": 1,
+  "quality_policy": {"minimum_score":85,"validator":"tools/validate_skills.py","catalog":"CATALOG.md"}
+}

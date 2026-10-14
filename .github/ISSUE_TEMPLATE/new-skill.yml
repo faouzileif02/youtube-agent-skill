@@ -1,0 +1,41 @@
+name: Propose a new skill
+description: Suggest a narrow new YouTube Agent capability
+title: "[Skill proposal] yt-"
+labels: ["skill-proposal"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed command
+      description: Must use yt-lowercase-kebab-case.
+      placeholder: yt-example
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem
+      description: What single problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Required inputs
+      description: What evidence or data must the skill have?
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output contract
+      description: What exact reusable output should it return?
+    validations:
+      required: true
+  - type: textarea
+    id: overlap
+    attributes:
+      label: Existing-skill overlap
+      description: Why can this not be handled cleanly by an existing skill?
+    validations:
+      required: true
